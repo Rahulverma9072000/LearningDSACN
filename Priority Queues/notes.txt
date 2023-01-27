@@ -1,0 +1,22 @@
+Two Major Properties of Heaps : 
+    Complete Binary tree
+    Heap Order Property 
+
+Complete Binary trees -> means except the last level every level should be completely filled
+and the last level should be filled from Left to Right 
+//Height of the Complete Binary Tree : 
+Minimum number of Nodes with Height H of CBT : 2^(h-1)
+Maximum number of Nodes with Height H of CBT : 2^h -1
+
+//If the number of nodes is N,
+than we can say that 
+2^(h-1) <= n <= 2^h -1 
+
+//height of Complete Binary tree will be logN always 
+We can Proove this by above equation and taking log on both side 
+CBT -> height -> logN
+
+Main Concept is to store element in Array and Visualize like a Tree 
+Simple Formula of CBT 
+For an index i , Access thier children 2*i+1 , 2*i+2 
+For an index i , Access thier Parent (i-1)/2
